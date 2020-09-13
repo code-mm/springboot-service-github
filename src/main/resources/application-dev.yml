@@ -1,0 +1,16 @@
+server:
+  port: 9999
+
+
+spring:
+  application:
+    name: service-auth-github
+
+
+github:
+  # github 客户端ID
+  client_id: 7921d08c4db4e2b0a671
+  # github 客户端secret
+  client_secret: e2b566bd4d0a0600dee519dc38492b2d295325ac
+  # github 回调地址
+  redirect_url: https://dev.ngrok.mhw828.com/github/oauth/callback
